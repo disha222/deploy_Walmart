@@ -1,0 +1,15 @@
+pandas as pd == 1.4.4
+ numpy as np  == 1.21.5
+
+ matplotlib.pyplot as plt == 3.5.2
+ seaborn as sns == 0.11.2
+plotly as px  == 5.9.0
+
+from sklearn.preprocessing import MinMaxScaler
+from sklearn import model_selection
+from sklearn import metrics, ensemble, linear_model
+
+from sklearn.experimental import enable_hist_gradient_boosting
+from sklearn.ensemble import HistGradientBoostingRegressor
+ warnings
+warnings.filterwarnings('ignore') 
